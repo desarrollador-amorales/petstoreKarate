@@ -2,7 +2,7 @@ Feature: PetStore API tests
 
   Background:
     * url 'https://petstore.swagger.io/v2'
-    * def data = read('/petstore-data.json')
+    * def data = read('./petstore-data.json')
     * def petData = data.petData
     * def updatedPetData = data.updatedPetData
 

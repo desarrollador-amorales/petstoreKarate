@@ -1,0 +1,3 @@
+La API de PetStore es una buena opción para realizar pruebas de servicios REST debido a su documentacion con swagger
+Con este proyecto, verifique la implementación de operaciones CRUD en una API, como crear, actualizar y consultar recursos.
+Los resultados de las pruebas se generan en un informe HTML detallado, lo que facilita la visualización de los estados de las pruebas y la depuración de problemas.
