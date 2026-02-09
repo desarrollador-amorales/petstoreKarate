@@ -50,8 +50,15 @@
                 <version>${maven.surefire.version}</version>
                 <configuration>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
+
+                    <systemPropertyVariables>
+                        <!--suppress UnresolvedMavenProperty -->
+                        <karate.env>${karate.env}</karate.env>
+                        <!--suppress UnresolvedMavenProperty -->
+                        <token>${token}</token>
+                    </systemPropertyVariables>
                 </configuration>
-            </plugin>          
+            </plugin>
         </plugins>        
     </build>       
     
